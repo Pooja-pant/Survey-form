@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>SURVEY FORM</title>
+</head>
+<style>
+
+
+body{
+	background-color: #a9d7d1;
+}
+
+#form-design{
+	font-size: 20px;
+	padding-right: 90px;
+}
+
+
+#header{
+	text-align: center;
+}
+
+#inner-container{
+	background-color:lightgrey;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.sub-head{
+	text-align: center;
+}
+
+.red{
+	color: red;
+}
+
+.bold{
+	font-weight: bold;
+}
+#regis-form{
+	padding-left: 200px;
+	
+}
+
+
+.form-field{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.form-field label{
+	width: 10%;
+}
+
+.form-field input{
+	width: 10%;
+}
+
+
+.form-field input{
+	width: 80%;
+}
+
+#submit{
+	
+	background-color:#B0BAEF;
+	font-weight: bold;
+}
+
+	</style>
+	
+	<body>
+		<form>
+		<div id="container">
+			<h1 id="header">SURVEY FORM</h1>
+			<div id="inner-container">
+				<p class="sub-head">Let us know how we can improve freeCodeCamp</p>
+				<form id="regis-form">
+					<div class="form-field">
+						<label for="name">
+							Name<span class="red bold">*</span>
+						</label>
+						<input id="name" type="text" placeholder="Name" name="name">
+						<br><label for="Email">
+						 Email Id<span class=red bold">*</span>
+						</label>
+						<input id="Email" type="Email" placeholder="Email Id" email="email">
+						<br><label for="Age">
+						 Age<span class=red bold">*</span>
+						</label>
+						<input id="Age" type="Age" placeholder="Age" Age="Age">
+						<br>
+						<label>Which option best describes your current role?</label>
+						<select>
+  					<option value="Student">Student</option><br>
+  					<option value="Full-time">Full time</option><br>
+  					<option value="others">Others</option><br>
+  					</select>
+            <br><label>How likely is that you
+            would recommend freeCodeCamp to a friend?</label><br>
+  					<label>yes</label>
+  					<input type="radio" name="option" value="Yes"><br>
+  					<label>No</label>
+  					<input type="radio" name="option" value="No"><br>
+  					<label>Maybe</label>
+  					<input type="radio" name="option" value="Maybe">
+						
+
+							<br><label>Things that should be improved in the future(Check all that apply):</label><br>
+							<label>Front-end Projects</label>
+							<input type="checkbox" name="" value="Front-end Projects"><br>
+							<label>Back-end Projects</label>
+							<input type="checkbox" name="" value="Back-end Projects"><br>
+							<label>Data Base</label>
+							<input type="checkbox" name="" value="Data Base"><br>
+
+							<div id="form-field">Any Comments or Suggestions?</div><br>
+							<input type="text" name="Comments" value="Type your comment here">
+							<br>
+							<button id="submit" type="submit">Submit</button>
+
+							
+						</form>
+  					</div> 
+				</form>
+			</div>
+
+
+
+		</div>
+
+</html>
